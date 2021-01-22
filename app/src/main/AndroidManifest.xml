@@ -15,15 +15,13 @@
         <activity android:name=".SendOTPActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
+        </activity>
+        <activity android:name=".OnboardingScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".OnboardingScreenActivity">
-
         </activity>
         <activity android:name=".DashboardScreenActivity" />
         <activity android:name=".BottomAppBarActivity" />
